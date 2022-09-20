@@ -14,13 +14,13 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-mouse2"></i>
-            <h3><a href="">MOUSE</a></h3>
+            <h3><a href="">MOUSEs</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-keyboard"></i>
-            <h3><a href="">KEYBOARD</a></h3>
+            <h3><a href="">KEYBOARDs</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
