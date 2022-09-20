@@ -1,4 +1,5 @@
 <template>
+
     <section id="hero" class="d-flex align-items-center justify-content-center">
     <div class="container2" data-aos="fade-up">
 
@@ -93,11 +94,13 @@
         </div> 
     </section>
 
+
 </template>
 
 <script>
-import {reactive } from '@vue/reactivity'
+import {reactive, ref} from '@vue/reactivity'
 import axios from 'axios'
+
 export default {
     name:'ToJoin',
   setup(){
@@ -166,10 +169,12 @@ export default {
       state.password.value.value = ''; 
       state.repassword.value.value = '';
       state.password.value.focus(); return false;
+
       }
       const response = await axios.post(url, body, {headers})
       console.log(response.data)
       if(response.status === 200){
+
         alert('회원가입이 되었습니다.');
       } else {
         alert('회원가입에 실패하였습니다.')
@@ -193,5 +198,6 @@ export default {
         -moz-border-radius: 10px;
         border-radius: 10px;
       }
+
 
 </style>
